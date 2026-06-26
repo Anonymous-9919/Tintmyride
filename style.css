@@ -126,8 +126,8 @@ img { max-width: 100%; display: block; }
 
 .btn-outline {
   background: transparent;
-  color: var(--text);
-  border: 1.5px solid rgba(0,0,0,0.15);
+  color: var(--white);
+  border: 1.5px solid rgba(255,255,255,0.2);
 }
 
 .btn-outline:hover {
