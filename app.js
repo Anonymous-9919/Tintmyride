@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".nav-links a").forEach(link => {
     link.addEventListener("click", () => {
+      if (window.innerWidth <= 768 && link.closest(".dropdown")) return;
       navLinks.classList.remove("open");
       hamburger.classList.remove("open");
     });
