@@ -48,5 +48,5 @@ app.post("/api/contact", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Legend PPF & Concept Chemicals running at http://localhost:${PORT}`);
+  console.log(`Tint My Ride running at http://localhost:${PORT}`);
 });

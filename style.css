@@ -3,10 +3,10 @@
   --dark: #0d0d0d;
   --dark-2: #141414;
   --dark-3: #1c1c1c;
-  --primary: @PRIMARY_COLOR@;              /* #d9360e */
-  --primary-dark: @PRIMARY_COLOR_DARK@;    /* #b82e0a */
-  --primary-light: @PRIMARY_COLOR_LIGHT@;  /* #ff4f22 */
-  --primary-glow: @PRIMARY_COLOR_GLOW@;    /* rgba(217, 54, 14, 0.15) */
+  --primary: #d9360e;
+  --primary-dark: #b82e0a;
+  --primary-light: #ff4f22;
+  --primary-glow: rgba(217, 54, 14, 0.15);
   --whatsapp: #0a7a3c;
   --whatsapp-light: #18c969;
   --white: #ffffff;

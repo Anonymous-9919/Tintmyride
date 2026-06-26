@@ -9,28 +9,28 @@
       .\new-project-script.ps1 -ProjectName "MySite" -CompanyName "Your Co" ...
 
     Or manually find and replace these tokens across all files:
-      @COMPANY_NAME@       → Your business name
+      Tint My Ride       → Your business name
       @PRIMARY_COLOR@      → Brand primary color hex (e.g. #d9360e)
       @PRIMARY_COLOR_DARK@ → Darker shade (e.g. #b82e0a)
       @PRIMARY_COLOR_LIGHT@→ Lighter shade (e.g. #ff4f22)
       @PRIMARY_COLOR_GLOW@ → RGBA version at 15% opacity
-      @PHONE_NUMBER@       → Contact/WhatsApp number
-      @EMAIL@              → Contact email
-      @ADDRESS@            → Street address
-      @CITY@               → City / location
-      @YEAR@               → Current year
+      +96594963434       → Contact/WhatsApp number
+      info@tintmyride.com              → Contact email
+      Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial            → Street address
+      Shuwaikh               → City / location
+      2026               → Current year
       @HERO_TITLE@         → Main headline
-      @HERO_SUBTEXT@       → Hero paragraph
-      @ABOUT_TEXT@         → About section description
+      Kuwait's exclusive distributor of Dermaprotec Films — professional PPF, ceramic coating, and car care since 2015.       → Hero paragraph
+      Founded in 2015, Tint My Ride has grown to become Kuwait's trusted name in automotive protection and enhancement. As the exclusive Kuwait distributor for Dermaprotec Films, we bring world-class PPF, ceramic coatings, window tints, and detailing services to car enthusiasts across the country. Our team of certified professionals is passionate about delivering perfection — treating every vehicle with the same care and attention as if it were our own. From luxury sports cars to daily drivers, we ensure your ride gets the protection it deserves.         → About section description
     ============================================================
   -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@COMPANY_NAME@ | Premium PPF, Ceramic Coating &amp; Chemical Concepts in @CITY@</title>
-  <meta name="description" content="@COMPANY_NAME@ — @CITY@'s premier PPF &amp; concept chemicals studio. Specializing in XPEL PPF, Ceramic Coating, Chemical Concepts, and full car care. Located at @ADDRESS@, @CITY@.">
-  <meta name="keywords" content="@COMPANY_NAME@, @CITY@, Car Protection, PPF, Paint Protection Film, Ceramic Coating, Car Detailing">
+  <title>Tint My Ride | Premium PPF, Ceramic Coating &amp; Chemical Concepts in Shuwaikh</title>
+  <meta name="description" content="Tint My Ride — Shuwaikh's premier PPF &amp; concept chemicals studio. Specializing in XPEL PPF, Ceramic Coating, Chemical Concepts, and full car care. Located at Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh.">
+  <meta name="keywords" content="Tint My Ride, Shuwaikh, Car Protection, PPF, Paint Protection Film, Ceramic Coating, Car Detailing">
   <meta name="geo.region" content="KW">
-  <meta name="geo.placename" content="@CITY@">
+  <meta name="geo.placename" content="Shuwaikh">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -40,15 +40,15 @@
   {
     "@context": "https://schema.org",
     "@type": "AutoDetailing",
-    "name": "@COMPANY_NAME@",
+    "name": "Tint My Ride",
     "image": "",
-    "url": "https://legend-ppf-concept-chemicals.vercel.app",
-    "telephone": "@PHONE_NUMBER@",
-    "email": "@EMAIL@",
+    "url": "https://tintmyride.vercel.app",
+    "telephone": "+96594963434",
+    "email": "info@tintmyride.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "@ADDRESS@",
-      "addressLocality": "@CITY@",
+      "streetAddress": "Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial",
+      "addressLocality": "Shuwaikh",
       "addressCountry": "KW"
     },
     "openingHoursSpecification": [
@@ -59,8 +59,8 @@
         "closes": "20:00"
       }
     ],
-        "description": "@CITY@'s premier PPF &amp; concept chemicals studio specializing in PPF, ceramic coating, chemical concepts, and full car care services.",
-        "url": "https://your-domain.vercel.app"
+        "description": "Shuwaikh's premier PPF &amp; concept chemicals studio specializing in PPF, ceramic coating, chemical concepts, and full car care services.",
+        "url": "https://tintmyride.vercel.app"
   }
   </script>
 </head>
@@ -70,15 +70,15 @@
   <div class="top-bar">
     <div class="container top-bar-inner">
       <div class="top-bar-contact">
-        <a href="https://wa.me/@PHONE_NUMBER@"><i class="fab fa-whatsapp"></i> @PHONE_NUMBER@</a>
-        <a href="mailto:@EMAIL@"><i class="far fa-envelope"></i> @EMAIL@</a>
-        <a href="#map"><i class="fas fa-map-marker-alt"></i> @ADDRESS@, @CITY@</a>
+        <a href="https://wa.me/+96594963434"><i class="fab fa-whatsapp"></i> +96594963434</a>
+        <a href="mailto:info@tintmyride.com"><i class="far fa-envelope"></i> info@tintmyride.com</a>
+        <a href="#map"><i class="fas fa-map-marker-alt"></i> Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh</a>
       </div>
       <div class="top-bar-social">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="https://wa.me/@PHONE_NUMBER@"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/+96594963434"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@
   <nav class="navbar" id="navbar">
     <div class="container nav-inner">
       <a href="#" class="logo">
-        <img src="images/Logo.jpg" alt="@COMPANY_NAME@">
+        <img src="images/Logo.jpg" alt="Tint My Ride">
       </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home" class="active">Home</a></li>
@@ -111,7 +111,7 @@
       </ul>
       <div class="nav-actions">
         <a href="#contact" class="btn btn-primary btn-sm">Get a Quote</a>
-        <a href="https://wa.me/@PHONE_NUMBER@" class="btn-whatsapp-nav"><i class="fab fa-whatsapp"></i> <span class="nav-whatsapp-text">Contact Us Now</span></a>
+        <a href="https://wa.me/+96594963434" class="btn-whatsapp-nav"><i class="fab fa-whatsapp"></i> <span class="nav-whatsapp-text">Contact Us Now</span></a>
         <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
@@ -128,19 +128,19 @@
     </div>
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-      <span class="hero-badge">@CITY@'S PREMIER PPF &amp; CONCEPT CHEMICALS</span>
-      <h1>Premium PPF, Ceramic Coating<br><span class="gradient-text">&amp; Chemical Concepts</span><br>in @CITY@</h1>
-      <p>@HERO_SUBTEXT@</p>
+      <span class="hero-badge">Shuwaikh'S PREMIER PPF &amp; CONCEPT CHEMICALS</span>
+      <h1>Premium PPF, Ceramic Coating<br><span class="gradient-text">&amp; Chemical Concepts</span><br>in Shuwaikh</h1>
+      <p>Kuwait's exclusive distributor of Dermaprotec Films — professional PPF, ceramic coating, and car care since 2015.</p>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary btn-lg">Get a Quick Quote</a>
-          <a href="https://wa.me/@PHONE_NUMBER@" class="btn btn-outline btn-lg"><i class="fab fa-whatsapp"></i> Message Us</a>
+          <a href="https://wa.me/+96594963434" class="btn btn-outline btn-lg"><i class="fab fa-whatsapp"></i> Message Us</a>
       </div>
       <div class="hero-brands">
         <span>Trusted Partners</span>
         <div class="brand-logos">
+          <span class="brand-chip">DERMAPROTEC</span>
           <span class="brand-chip">XPEL</span>
           <span class="brand-chip">GTECHNIQ</span>
-          <span class="brand-chip">ALLOYGATOR</span>
         </div>
       </div>
     </div>
@@ -154,13 +154,13 @@
   <section class="about section" id="about">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">WELCOME TO LEGEND PPF</span>
+        <span class="section-badge">WELCOME TO TINT MY RIDE</span>
         <h2>Built by Enthusiasts,<br>for Enthusiasts.</h2>
-        <p class="section-sub">Kuwait's Experts in PPF, Ceramic Coating &amp; Chemical Concepts</p>
+        <p class="section-sub">Kuwait's Exclusive Distributor of Dermaprotec Films</p>
       </div>
       <div class="about-grid">
         <div class="about-content">
-          <p>@ABOUT_TEXT@</p>
+          <p>Founded in 2015, Tint My Ride has grown to become Kuwait's trusted name in automotive protection and enhancement. As the exclusive Kuwait distributor for Dermaprotec Films, we bring world-class PPF, ceramic coatings, window tints, and detailing services to car enthusiasts across the country. Our team of certified professionals is passionate about delivering perfection — treating every vehicle with the same care and attention as if it were our own. From luxury sports cars to daily drivers, we ensure your ride gets the protection it deserves.</p>
           <div class="about-badges">
             <span><i class="fas fa-check-circle"></i> Premium Paint Protection Films</span>
             <span><i class="fas fa-check-circle"></i> Premium Window Tints</span>
@@ -169,9 +169,9 @@
           <a href="#services" class="btn btn-primary">Explore Our Services</a>
         </div>
         <div class="about-image">
-          <img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/Snapinst.app_469629136_591645106774668_1568118739028967259_n_1080.webp" alt="@COMPANY_NAME@ premium studio" loading="lazy">
+          <img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/Snapinst.app_469629136_591645106774668_1568118739028967259_n_1080.webp" alt="Tint My Ride premium studio" loading="lazy">
           <div class="about-experience-badge">
-            <span class="exp-number">8+</span>
+            <span class="exp-number">10+</span>
             <span class="exp-label">Years Excellence</span>
           </div>
         </div>
@@ -185,7 +185,7 @@
       <div class="section-header">
         <span class="section-badge">OUR SERVICES</span>
         <h2>What We Offer</h2>
-        <p class="section-sub">Our Kuwait studio specializes in full-service car care — from washes and detailing to advanced protection solutions.</p>
+        <p class="section-sub">Exclusive Dermaprotec Films distributors — from washes and detailing to advanced PPF and ceramic coating protection.</p>
       </div>
       <div class="services-grid">
         <div class="service-card" style="background-image: url('https://apexdetailstudio.com/wp-content/uploads/2025/09/Ferrari-296-GTB-PPF-installation.jpg');">
@@ -268,13 +268,13 @@
   <section class="video-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">LEGEND PPF</span>
+        <span class="section-badge">TINT MY RIDE</span>
         <h2>Watch How We Do It</h2>
         <p class="section-sub">Discover premium car care in Kuwait. See why enthusiasts choose us.</p>
       </div>
       <div class="video-wrapper">
         <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/yFUSWaT6FEY" title="Legend PPF &amp; Concept Chemicals - Premium Car Care" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/yFUSWaT6FEY" title="Tint My Ride - Premium Car Care" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -297,7 +297,7 @@
   <section class="why-us section" id="why-us">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">WHY LEGEND PPF</span>
+        <span class="section-badge">WHY TINT MY RIDE</span>
         <h2>Your Car, Our Priority</h2>
         <p class="section-sub">We treat every car with the same care and attention as our own, delivering premium results.</p>
       </div>
@@ -336,7 +336,7 @@
         <span class="stat-label">Happy Customers</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number" data-target="8">0</span>
+        <span class="stat-number" data-target="11">0</span>
         <span class="stat-plus">+</span>
         <span class="stat-label">Years Experience</span>
       </div>
@@ -364,7 +364,7 @@
       <div class="testimonials-slider" id="testimonialsSlider">
         <div class="testimonial-card active">
           <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-          <p>"I recently took my brand new BMW for ceramic coating at Legend PPF, and they did such a fantastic job. They made the car really shine and I highly recommend them. I'll also be trusting them with other cars in the future."</p>
+          <p>"I recently took my brand new BMW for ceramic coating at Tint My Ride, and they did such a fantastic job. They made the car really shine and I highly recommend them. I'll also be trusting them with other cars in the future."</p>
           <div class="testimonial-author">
             <div class="author-avatar"><span>A</span></div>
             <div>
@@ -413,7 +413,7 @@
         <p class="section-sub">Discover why Kuwait car enthusiasts choose us — our gallery showcases the precision, passion, and perfection behind every project.</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item"><img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/527271602_18083569324887900_5060718759953765083_n.jpg" alt="Luxury car care Legend PPF Kuwait" loading="lazy"></div>
+        <div class="gallery-item"><img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/527271602_18083569324887900_5060718759953765083_n.jpg" alt="Luxury car care Tint My Ride Kuwait" loading="lazy"></div>
         <div class="gallery-item"><img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/527453672_18083668720887900_6629872821379205107_n.jpg" alt="Premium car finish Kuwait" loading="lazy"></div>
         <div class="gallery-item"><img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/523484363_18082567483887900_8052263156709606568_n-e1758803783550.jpg" alt="Sports car care Kuwait" loading="lazy"></div>
         <div class="gallery-item"><img src="https://apexdetailstudio.com/wp-content/uploads/2025/09/535889680_18085018747887900_2265348175324977696_n-1.jpg" alt="Paint protection film Kuwait" loading="lazy"></div>
@@ -428,11 +428,11 @@
     <div class="container">
       <div class="section-header">
         <span class="section-badge">VISIT US</span>
-        <h2>Find Us in @CITY@</h2>
-        <p class="section-sub">@ADDRESS@, @CITY@ — easily accessible from all major routes.</p>
+        <h2>Find Us in Shuwaikh</h2>
+        <p class="section-sub">Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh — easily accessible from all major routes.</p>
       </div>
       <div class="map-container" style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.04);">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.5!2d47.9320!3d29.3450!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9c5a5a5a5a5a%3A0x0!2zU2h1d2Fpa2ggSW5kdXN0cmlhbCwgS3V3YWl0!5e0!3m2!1sen!2skw!4v1" width="100%" height="400" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="@COMPANY_NAME@ location in @CITY@"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.5!2d47.9320!3d29.3450!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9c5a5a5a5a5a%3A0x0!2zU2h1d2Fpa2ggSW5kdXN0cmlhbCwgS3V3YWl0!5e0!3m2!1sen!2skw!4v1" width="100%" height="400" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Tint My Ride location in Shuwaikh"></iframe>
       </div>
     </div>
   </section>
@@ -444,7 +444,7 @@
       <div class="section-header">
         <span class="section-badge">GET IN TOUCH</span>
         <h2>Contact Us Today</h2>
-        <p class="section-sub">Visit our studio in @CITY@ or reach out online. We're here to help protect and enhance your vehicle.</p>
+        <p class="section-sub">Visit our studio in Shuwaikh or reach out online. We're here to help protect and enhance your vehicle.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info">
@@ -452,21 +452,21 @@
             <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
             <div>
               <h4>Phone / WhatsApp</h4>
-              <a href="https://wa.me/@PHONE_NUMBER@">@PHONE_NUMBER@</a>
+              <a href="https://wa.me/+96594963434">+96594963434</a>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i class="far fa-envelope"></i></div>
             <div>
               <h4>Email</h4>
-              <a href="mailto:@EMAIL@">@EMAIL@</a>
+              <a href="mailto:info@tintmyride.com">info@tintmyride.com</a>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
             <div>
               <h4>Address</h4>
-              <p>@ADDRESS@, @CITY@</p>
+              <p>Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh</p>
               <a href="#map" style="font-size: 13px; color: var(--primary);">Get Directions →</a>
             </div>
           </div>
@@ -479,7 +479,7 @@
           </div>
           <div class="contact-cta">
             <p>Urgent? Message us on WhatsApp</p>
-            <a href="https://wa.me/@PHONE_NUMBER@" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> @PHONE_NUMBER@</a>
+            <a href="https://wa.me/+96594963434" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> +96594963434</a>
           </div>
         </div>
         <form class="contact-form" id="contactForm">
@@ -525,14 +525,14 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="#" class="logo">
-            <img src="images/Logo.jpg" alt="@COMPANY_NAME@">
+            <img src="images/Logo.jpg" alt="Tint My Ride">
           </a>
-          <p>@COMPANY_NAME@ is @CITY@'s premier PPF &amp; concept chemicals studio, built by enthusiasts for fellow enthusiasts who demand top-quality car care. Located at <strong>@ADDRESS@, @CITY@</strong>.</p>
+          <p>Tint My Ride is Shuwaikh's premier PPF &amp; concept chemicals studio, built by enthusiasts for fellow enthusiasts who demand top-quality car care. Located at <strong>Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh</strong>.</p>
           <div class="footer-social">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="https://wa.me/@PHONE_NUMBER@"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/+96594963434"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
         <div class="footer-links">
@@ -562,21 +562,21 @@
         <div class="footer-contact">
           <h4>Connect With Us</h4>
           <ul>
-            <li><a href="https://wa.me/@PHONE_NUMBER@"><i class="fab fa-whatsapp"></i> @PHONE_NUMBER@</a></li>
-            <li><a href="mailto:@EMAIL@"><i class="far fa-envelope"></i> @EMAIL@</a></li>
-            <li><i class="fas fa-map-marker-alt"></i> @ADDRESS@, @CITY@</li>
+            <li><a href="https://wa.me/+96594963434"><i class="fab fa-whatsapp"></i> +96594963434</a></li>
+            <li><a href="mailto:info@tintmyride.com"><i class="far fa-envelope"></i> info@tintmyride.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Automall Shuwaikh industrial area, Abdul Aziz Fahad Almusaed St, Shuwaikh Industrial, Shuwaikh</li>
             <li><i class="far fa-clock"></i> Sat - Thurs: 9am-8pm</li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; @YEAR@ @COMPANY_NAME@. All rights reserved.</p>
+        <p>&copy; 2026 Tint My Ride. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
   <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/@PHONE_NUMBER@" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+  <a href="https://wa.me/+96594963434" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
     <i class="fab fa-whatsapp"></i>
     <span>Contact Us Now</span>
   </a>
